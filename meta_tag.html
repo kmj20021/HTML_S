@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>meta_tag</title>
+    </head>
+    <body>
+        <h1><a href="main.html">HTML</a></h1>
+        <h2>HTML &lt;meta&gt;</h2>
+        &lt;meta&gt;태그는 해당 문서에 대한 정보인 메타데이터를 정의할 때 사용합니다.<br>
+        <br>
+        &lt;meta&gt;요소는 &lt;base&gt;,&lt;link&gt;,&lt;script&gt;,&lt;style&gt;,&lt;title&gt;요소와 같은 다른 메타데이터 관련 요소들이 나타낼 수 없는 다양한 종류의 메타데이터를 제공 할 때 사용되며, 이렇게 제공된 정보는 브라우저나 검색엔진, 다른 웹서비스에서 사용하게 됩니다.<br>
+        <br>
+        이러한 &lt;meta&gt;요소는 항상 &lt;head&gt;요소 내부에 위치해 있어야 합니다.<br>
+        <br>
+        만약 name속성이나 http-equiv속성이 명시되었다면 반드시 content속성도 함께 명시되어야 하며, 반대로 두 속성이 명시되지 않았다면 content속성 또한 명시될 수 없습니다.<br>
+        <br>
+        HTML5에서는 &lt;meta&gt;요소를 통해 웹페이지에서 사용자가 볼 수있는 영역인 뷰포트를 제어할 수 있도록 name속성에 viewport속성값을 제공하고 있습니다.<br>
+        <br>
+        <br>
+        1)검색 엔진을 위한 키워드<br>
+        &lt;meta name=&quot;keyword&quot; content=&quot;HTML, meta, tag, element, reference&quot;&gt;<br>
+        2)웹 페이지에 대한 설명(description)을 정의하는 예제<br>
+        &lt;meta name=&quot;discription&quot; content=&quot;HTML meta tag page&quot;&gt;<br>        
+        3)문서의 저자(author)를 정의하는 예제<br>
+        &lt;meta name=&quot;author&gt; content=&quot;TCPSchool&quot;<br>
+        4)5초 뒤에 다른 페이지로 리다이렉트(redirect)시키는 예제<br> <a href="meta_redirect.html">클릭 시 리다이렉트</a>
+        &lt;meta http-equiv=&quot;refresh&quot; content=&quot;5;url=http://www.tcpschool.com&quot;&gt;<br>
+        5)모든 장치에서 웹사이트가 잘 보이도록 뷰포트(viewport)를 설정하는 예제<br>
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;<br>
+        
+        <div>
+            예제
+            
+            <pre>
+                <code class="html">&lt;head&gt;
+                &nbsp; &nbsp; &lt;meta charset=&quot;UTF-8&quot;&gt;
+                &nbsp; &nbsp; &lt;meta name=&quot;keyword&quot; content=&quot;HTML, meta, tag, element, reference&quot;&gt;
+                &nbsp; &nbsp; &lt;meta name=&quot;description&quot; content=&quot;HTML meta tag page&quot;&gt;
+                &nbsp; &nbsp; &lt;meta name=&quot;author&quot; content=&quot;TCPSchool&quot;&gt;
+                &nbsp; &nbsp; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                &nbsp; &nbsp; &lt;title&gt;HTML meta tag&lt;/title&gt;
+                &lt;/head&gt;
+                </code></pre>
+        </div>
+    </body>
+</html>
