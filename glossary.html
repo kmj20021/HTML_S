@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Glossary</title>
+    </head>
+    <body>
+        <h1><a href="index.html">Html</a></h1>
+        <div>
+            인코딩: 데이터를 변환하여 저장, 전송, 처리 등을 더 효율적으로 수행할 수 있게 하는 일.<br>
+            예시<br>
+            <strong>원본 텍스트: </strong>Hello, World!<br>
+            <strong>Base64 인코딩: </strong>SGVsbG8slFdvcmxklQ==<br>
+            <br>
+            메서드 오버라이드(Method Override) : 자식 클래스에서 부모 클래스의 매서드를 재정의 하는 것을 의미함.<br>
+            이는 다형성을 구현하는 중요한 기법으로, 부모 클레스의 기본 동작을 자식 클래스에서 변경하고자 할 때 사용<br>
+            <br>
+            인스턴스(Instance): 객체 지향 프로그래밍의 핵심으로, 클래스를 기반으로 만들어진 실제 객체를 의미한다. 인스턴스는 프로그램에서 실제로 동작하는 객체이며, 개발자는 인스턴스를 통해 클래스의 정의를 실질적으로 구현하고 활용한다. 코드의 재사용성과 확장성을 높이는 데 필수적인 요소이다.
+            예시<br>
+            <code><pre>class car {<br>
+                    //속성 (필드)<br>
+                    String color;<br>
+                    String model;<br>
+                    <br>
+                    // 생성자<br>
+                    Car(String color, String model){<br>
+                        this.color = color;<br>
+                        this.model = model;<br>
+                    }<br>
+                    <br>
+                    //매서드 (함수, 행동)<br>
+                    void drive() {<br>
+                    ystem.out.println(model + &quot;is driving&quot; )<br>
+                    }<br>
+                }<br>
+                // 클래스의 인스턴스 생성<br>
+                public classs Main {<br>
+                    public static void main(String[] args)<br>
+                    // Car 클래스의 인스턴스 생성<br>
+                    Car myCar = new Car(&nbsp;Red&nbsp;,&nbsp;Toyota&nbsp;);<br>
+                    Car yourCar = new Car(&nbsp;Black&nbsp;,&nbsp;Kia&nbsp;);<br>
+                    <br>
+                    //인스턴스의 메서드 호출<br>
+                    myCar.drive(); //출력: Toyota is driving.<br>
+                    yourCar.drive(); //출력: Kia is driving.<br>
+
+                    //인스턴스의 속성 접근<br>
+                    System.out.println(&nbsp;My car color: &nbsp; +myCar.color); //출력: My car color: Red<br>
+                    System.out.println(&nbsp;Your car color: &nbsp; +yourCar.color); //출력: Your car color: Black<br>
+                    <br>
+                }<br>
+                </pre></code><br>
+                인스턴스의 생성: 클래스의 생성자를 호출하여 인스턴스를 생성한다. ex) new Car(&nbsp;Black&nbsp;,&nbsp;Kia&nbsp;);<br>
+                <br>
+                인스턴스의 속성: 인스턴스는 클래스에서 정의한 속성을 자신의 고유한 값으로 가진다.<br>
+                예시에선 myCar와 yourCar라는 두 개의 인스턴스가 각각 다른 색상과 모델을 가진다.<br>
+                <br>
+                인스턴스의 메서드: 인스턴스는 클래스에서 정의한 메서드를 호출 하여 동작을 수행가능<br>
+                각각의 인스턴스는 자신의 상태에 따라 메서드를 다르게 수행할 수 있음<br>
+                <br>
+            
+            <br>
+
+
+        </div>
+    </body>
+</html>
